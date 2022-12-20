@@ -20,7 +20,7 @@ public class JdbcUtil {
         
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb2?useUnicode=true&characterEncoding=UTF-8","root","1234");
+                connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb3?useUnicode=true&characterEncoding=UTF-8","root","1234");
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
